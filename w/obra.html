@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 2 - Mis Obras</title>
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            font-family: 'Lucida Console', Monospace;
+            background-color: #1d273d;
+            color: beige;
+            margin: 0;
+            text-align: center; /* Centra el título principal H1 */
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            width: 90%; /* Aumentado un poco para dar más espacio */
+            max-width: 1200px; /* Límite para que no se vea gigante en monitores grandes */
+            margin: auto;
+        }
+
+        /* Sección o bloque */
+        .bloque {
+            background-color: white;
+            margin: 30px 0;
+            padding: 40px;
+            border-radius: 10px;
+            
+            /* Flexbox para centrar todo el contenido verticalmente */
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+        }
+        .bloque-peque {
+            padding: 20px !important;
+            min-height: auto !important;
+            height: auto !important;
+            margin: 10px 0 !important;
+        }
+
+        /* Contenedor especial para cuando hay más de una imagen (Bloque 2) */
+        .galeria-fotos {
+            display: flex;
+            flex-wrap: wrap; /* Si no caben, se ponen una abajo de otra */
+            justify-content: center;
+            gap: 20px; /* Espacio entre fotos */
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        /* Imagen responsiva: Nunca se sale del bloque */
+        .bloque img {
+            max-width: 100%; /* No permite que la imagen sea más ancha que el bloque */
+            height: auto; /* Mantiene la proporción */
+            margin-top: 20px;
+            border-radius: 4px; /* Opcional: un toque suave a las esquinas */
+        }
+
+        /* Encabezados y textos dentro del bloque blanco */
+        .bloque h2 {
+            margin: 20px 0 10px 0;
+            color: #1d273d;
+        }
+
+        .bloque p {
+            color: #1d273d;
+            line-height: 1.5;
+            max-width: 800px; /* Para que el texto no sea demasiado largo de leer */
+        }
+
+        /* Enlaces */
+        a {
+            color: #1d273d;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        
+        .volver-link {
+            color: beige;
+            display: block;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+
+        .link-secreto {
+            color: beige
+            /*text-decoration: none;*/
+        }
+
+        .link-secreto:hover {
+        color: #f725bf;    
+        }
+    </style>
+</head>
+<body>
+
+    <h1>⊹₊˚‧︵‿₊୨ᰔ୧₊‿︵‧˚₊⊹ Mis obras ⊹₊˚‧︵‿₊୨ᰔ୧₊‿︵‧˚₊⊹</h1>
+
+
+
+<h2>
+    <a
+href="https://docs.google.com/spreadsheets/d/10CWXhPl_xPXd1PVIt8F9eCNOif0GcTiv_oPqPXWWxvA/edit?resourcekey=&gid=1782471961#gid=1782471961"
+target="_blank" class="link-secreto">
+"Contraseñas :P"
+    </a>
+</h2>
+<p> No había ninguna contraseña jeje, era una bromita, un experimento social...
+</p>
+
+    <div class="contenedor">
+
+        <div class="bloque">
+            <img src="img/Obra1.jpg" alt="Tres grabados en gel">
+            <h2>"Sin titulo"</h2>
+            <p>
+                Tríptico de grabados en gel. Tres fotos personales en donde la silueta es la protagonista. 
+                2025
+            </p>
+        </div>
+
+        <div class="bloque">
+            <div class="galeria-fotos">
+                <img src="img/Obra3.jpg" alt="Grabado en gel" style="width: 45%; min-width: 300px;">
+                <img src="img/Obra2.jpg" alt="Grabado en gel" style="width: 45%; min-width: 300px;">
+            </div>
+            <h2>"Eras"</h2>
+            <p>
+               Dos grabados en gel. Dos personas que se dan la mano en medio de la multitud.
+            </p>
+        </div>
+
+        <div class="bloque">
+            <img src="img/Obra4.jpg" alt="Grabado secuencia de abrazo" style="max-width: 800px;">
+            <h2>"Abrazo"</h2>
+            <p>
+                Secuencia de un abrazo entre hermanas, la separación deja un vacío.
+            </p>
+        </div>
+
+        <div class="bloque">
+            <p>⬇⬇⬇°❀⋆ Contacto°❀⋆⬇⬇⬇</p>
+            <a href="contacto.html">
+                <img src="img/contacto.png" alt="imagen contacto" style="max-width: 400px;">
+            </a>
+        </div>
+
+        <a href="index.html" class="volver-link">Volver a la página principal</a>  
+    </div>
+
+</body>
+</html>

