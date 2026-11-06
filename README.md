@@ -1,4 +1,4 @@
-# Multimedial
+
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
 
 ### Exploración creativa de arte, tecnología y medios digitales interactivos.
