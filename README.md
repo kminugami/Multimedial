@@ -46,10 +46,10 @@ pre {
 ## Unidad I. [Hipervínculo](#unidad-i--hipervinculo-) <br> 
 
 
-1. [Mi Primera página.](#mi-primera-página) <br> 
+ 1. [Mi Primera página.](#mi-primera-pagina) <br>
 2. [Enlaces -  Links](#2-enlaces-links) <br> 
-3. [Mini sitio / 3 páginas conectadas](#3-mini-sitio-3-páginas-conectadas) <br> 
-4. [css-intermedio-interacción-y-layout](#4-css-intermedio-interacción-y-layout) <br>
+3. [Mini sitio / 3 páginas conectadas](#mini-sitio) <br> 
+4. [css-intermedio-interacción-y-layout](#css-intermedio) <br>
 
 ## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
 
@@ -59,7 +59,7 @@ pre {
 <h1 style="text-align: center; border-bottom: none;"><q>Unidad I</q></h1>
 
 
-### 1. Mi primera página: https://kminugami.github.io/Multimedial/w/
+<h3 id="mi-primera-pagina">1. Mi primera página: <a href="https://kminugami.github.io/Multimedial/w/">https://kminugami.github.io/Multimedial/w/</a></h3>
 
 <div class="bloque" markdown="1">
 
@@ -413,6 +413,24 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pa
 ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚
 </div>
 <h1 style="text-align: center; border-bottom: none;"><q>Unidad II</q></h1>
+
+<h3 id="mini-sitio">3. Mini sitio (3 páginas conectadas)</h3>
+
+<h3 id="css-intermedio">4. CSS intermedio (interacción y layout)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <img id="mi-cursor" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/cursor.gif" style="position: fixed; top: 0; left: 0; width: 32px; pointer-events: none; z-index: 9999; display: none;">
