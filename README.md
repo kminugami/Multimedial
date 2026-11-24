@@ -54,7 +54,7 @@ pre {
 
 Una de las particularidades de mi página web es que exige ingresar una contraseña para acceder. En realidad, no existe una clave correcta: cualquier texto sirve, ya que el objetivo es ver qué se le ocurre escribir a cada visitante. Todo lo que ingresan queda registrado automáticamente en un formulario de Google. Eso sí, si intentan entrar sin escribir nada, aparece el siguiente mensaje:
 <div style="text-align: center;">
-<img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_83.png" width="400" style="border-radius: 50px;">
+<img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_83.png" style="width: 400px; max-width: 100%; border-radius: 50px;">
 </div>
 </div>
 
@@ -385,11 +385,17 @@ target="_blank" class="link-secreto">
 
 <div class="bloque" markdown="1">
 
-`<a href="pagina2.html">Ir a la página 2</a>` 
+`<a href="pagina2.html">Ir a la página 2</a>`
 
-Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pasar de una página web a otra al hacer clic. → etiqueta de enlace. href → atributo que indica a qué página se va a enlazar. "pagina2.html" → archivo o dirección a la que se va. Ir a la página 2 → texto visible del enlace. → cierre de la etiqueta.
+Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pasar de una página web a otra al hacer clic.
+
+* `<a>` → *etiqueta de enlace.*
+* `href` → *atributo que indica a qué página se va a enlazar.*
+* `"pagina2.html"` → *archivo o dirección a la que se va.*
+* `Ir a la página 2` → *texto visible del enlace.*
+* `</a>` → *cierre de la etiqueta.*
+
 </div>
-
 
 
 <div style="text-align: center; font-size: 30px; color: #801854; white-space: nowrap; overflow: hidden;">
