@@ -1,7 +1,7 @@
 <style>
 body { background: #14101f !important; }
 body, p, li { color: #e8e4f0 !important; }
-h1, h2, h3, h4 { color: #ff7ac6 !important; }
+
 a { color: #ff7ac6 !important; }
 a:hover { color: white !important; }
 
@@ -21,11 +21,12 @@ pre {
 }
 .bloque:hover { transform: translateY(-4px); }
 .bloque img { width: 100%; border-radius: 8px; }
+.sin-linea { border-bottom: none !important; }
 </style>
 
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
 
-### Exploración creativa de arte, tecnología y medios digitales interactivos.
+### Exploración creativa de arte, tecnología y medios digitales interactivos .𖥔 ݁ ˖๋ ࣭ ⭑
 ## Unidad I. [Hipervínculo](#unidad-i--hipervinculo-) <br> 
 
 
@@ -34,18 +35,15 @@ pre {
 3. [Mini sitio / 3 páginas conectadas](#3-mini-sitio-3-páginas-conectadas) <br> 
 4. [css-intermedio-interacción-y-layout](#4-css-intermedio-interacción-y-layout) <br>
 
-## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
+<h2 style="border-bottom: none;">Unidad II. <a href="#programación-visual-creativa-basada-en-nodos">Programación visual creativa basada en nodos</a></h2>
 
-### Unidad I.  Hipervínculo.
+<h1 style="text-align: center; border-bottom: none;">Unidad I</h1>
+<h3 style="text-align: center; border-bottom: none;">₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚</h3>
+
 #### 1. Mi primera página:
+
+
 #### 2. Enlaces (links)
-
-
-
-
-
-
-
 
 
 ### Unidad II. Programación visual creativa basada en nodos.
