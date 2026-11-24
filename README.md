@@ -37,7 +37,7 @@ pre {
 .bloque:hover { transform: translateY(-4px); }
 .bloque img { width: 100%; border-radius: 8px; }
 .sin-linea { border-bottom: none !important; }
-
+#mi-cursor { background: transparent !important; }
 </style>
 
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
