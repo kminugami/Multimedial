@@ -1,3 +1,28 @@
+<style>
+body { background: #14101f !important; }
+body, p, li { color: #e8e4f0 !important; }
+h1, h2, h3, h4 { color: #ff7ac6 !important; }
+a { color: #ff7ac6 !important; }
+a:hover { color: white !important; }
+
+pre {
+  background: #1f1830 !important;
+  color: #e8e4f0 !important;
+  border-radius: 10px;
+}
+
+.bloque {
+  background: #1f1830;
+  border: 1px solid #ff7ac6;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 24px 0;
+  transition: 0.3s;
+}
+.bloque:hover { transform: translateY(-4px); }
+.bloque img { width: 100%; border-radius: 8px; }
+</style>
+
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
 
 ### Exploración creativa de arte, tecnología y medios digitales interactivos.
