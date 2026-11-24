@@ -5,6 +5,17 @@ summary {
   cursor: pointer;
   color: #ff7ac6;
   padding: 8px 0;
+  code {
+  background: #3a2f55;
+  color: #e8e4f0;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
 }
 
 a { color: #ff7ac6 !important; }
