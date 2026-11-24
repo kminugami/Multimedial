@@ -37,6 +37,7 @@ pre {
 .bloque:hover { transform: translateY(-4px); }
 .bloque img { width: 100%; border-radius: 8px; }
 .sin-linea { border-bottom: none !important; }
+
 </style>
 
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
@@ -412,3 +413,21 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pa
 ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚
 </div>
 <h1 style="text-align: center; border-bottom: none;"><q>Unidad II</q></h1>
+
+
+<img id="mi-cursor" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/cursor.gif" style="position: fixed; top: 0; left: 0; width: 32px; pointer-events: none; z-index: 9999; display: none;">
+<script>
+var cursor = document.getElementById("mi-cursor");
+var escondido = false;
+document.addEventListener("mousemove", function(e) {
+  if (!escondido) {
+    var estilo = document.createElement("style");
+    estilo.innerHTML = "* { cursor: none !important; }";
+    document.head.appendChild(estilo);
+    cursor.style.display = "block";
+    escondido = true;
+  }
+  cursor.style.left = e.clientX + "px";
+  cursor.style.top = e.clientY + "px";
+});
+</script>
