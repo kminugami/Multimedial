@@ -392,11 +392,10 @@ target="_blank" class="link-secreto">
 
 
 ### 2. Enlaces (links)
-
-
+##### Ejemplos de como hacer link de una página a otra
 <div class="bloque" markdown="1">
 
-`<a href="pagina2.html">Ir a la página 2</a>`
+1. `<a href="pagina2.html">Ir a la página 2</a>`
 
 Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pasar de una página web a otra al hacer clic.
 
@@ -407,16 +406,137 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pa
 * `</a>` → *cierre de la etiqueta.*
 
 </div>
+<div style="text-align: center;">
+<pre style="display: inline-block; text-align: left; background: none !important; border: none !important; overflow: visible !important; max-height: none !important; height: auto !important; font-family: 'DejaVu Sans Mono', 'Segoe UI Symbol', monospace; font-size: 18px; line-height: 1.1; letter-spacing: 0; margin: 0; padding: 0;">
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢤⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢰⠏⠳⣄⣀⣀⡸⠁⠀⠙⢆⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢀⡏⠀⠀⠘⠛⠋⠃⠀⠀⠀⠸⣷⣒⣉⠀⠀⠀
+⠀⠔⢒⣾⡂⠀⢴⡄⠰⣾⡖⠀⠛⠁⠀⠉⢳⡄⠀⠀⠀
+⠀⠋⢹⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⢱⡄⠀⠀
+⠀⢀⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠏⠟⠀⠀⠀⢱⡀⠀
+⠀⡸⠁⠀⠀⠀⠐⣟⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣇⠀
+⢠⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀
+⢸⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡆
+⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠇
+⠸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⠀
+⠀⠹⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠃⠀
+⢠⠞⢉⣕⣦⣤⣐⣫⣇⣀⣀⣀⣸⣏⣣⠤⠴⠊⠁⠀⠀
+⢸⡀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠙⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+</pre>
+</div>
 
+<div class="bloque" markdown="1">
+
+2. `Ejemplo con dos páginas`
+* Index
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi sitio</title>
+</head>
+
+<body>
+
+<h1>Página principal</h1>
+
+<a href="pagina2.html">Ir a la segunda página</a>
+
+</body>
+</html>
+```
+* Página 2
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Página 2</title>
+</head>
+
+<body>
+
+<h1>Esta es la segunda página</h1>
+
+<a href="index.html">Volver a la página principal</a>
+
+</body>
+</html>
+```
+- Este ejemplo muestra cómo crear una navegación básica de ida y vuelta conectando dos archivos HTML distintos: uno llamado index.html (la página principal) y otro llamado pagina2.html (la segunda página). 
+- En el primer archivo se muestra el encabezado "Página principal" junto con un enlace que, al hacerle clic, lleva directamente a la segunda página. A su vez, dentro del segundo archivo aparece el encabezado "Esta es la segunda página" acompañado de otro enlace que permite regresar al inicio. De esta manera, ambos documentos quedan vinculados entre sí, logrando que la persona pueda moverse libremente de una página a otra. 
+
+</div>
+<div style="text-align: center;">
+<pre style="display: inline-block; text-align: left; background: none !important; border: none !important; overflow: visible !important; max-height: none !important; height: auto !important; font-family: 'DejaVu Sans Mono', 'Segoe UI Symbol', monospace; font-size: 18px; line-height: 1.1; letter-spacing: 0; margin: 0; padding: 0;">
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⢤⡀⠀⠀⠀⣠⠶⢦⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢀⡞⠀⠀⠙⣦⣤⣼⠃⠀⠀⠹⣄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣤⣤⣏⣀⠀⠀⢀⠙⠚⡙⠀⢀⡀⠀⠹⣤⠴⠶⠀⠀
+⠀⠀⠀⠀⠠⣶⡟⠒⠂⠀⠘⠟⠀⠲⠓⠀⠙⠃⠀⠀⠹⡍⠙⠀⠀
+⠀⠀⠀⠀⣴⣯⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⠀⠀⠀
+⠀⠀⢀⡾⢯⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣧⠀⠀
+⠀⢀⡾⠿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡄⠀
+⠀⡾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀
+⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⠀
+⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠀
+⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡇⠀
+⠀⠹⡄⠀⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡞⠀⠀
+⠀⠀⠙⢦⣾⣿⠙⡖⡦⠤⣤⣄⠀⢠⡄⢦⠀⡆⢲⣀⡴⠋⠀⠀⠀
+⠀⠀⠀⠀⠈⠛⠲⠿⢧⣼⣿⠾⠓⠚⠧⠼⠛⠛⠞⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+</pre>
+</div>
+<div class="bloque" markdown="1">
+
+3. `<a href="https://www.wikipedia.org" target="_blank">Ir a Wikipedia</a>`
+
+Ese fragmento de código HTML sirve para crear un enlace (o link) que dirige a una página externa y la abre en una pestaña nueva al hacer clic.
+
+* `<a>` → *etiqueta de enlace.*
+* `href` → *atributo (Hypertext Reference) que define el destino del hipervínculo, indicando al navegador la URL o archivo al que debe dirigirse.*
+* `"https://www.wikipedia.org](https://www.wikipedia.org"` → *dirección web (URL) a la que se va.*
+* `target="_blank` → *atributo que indica que el enlace se abrirá en una nueva pestaña.*
+* `Ir a Wikipedia` → *texto visible del enlace.*
+* `</a>` → *cierre de la etiqueta.*
+
+</div>
+<div style="text-align: center;">
+<pre style="display: inline-block; text-align: left; background: none !important; border: none !important; overflow: visible !important; max-height: none !important; height: auto !important; font-family: 'DejaVu Sans Mono', 'Segoe UI Symbol', monospace; font-size: 18px; line-height: 1.1; letter-spacing: 0; margin: 0; padding: 0;">
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢦⢤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡿⣤⣾⡏⠀⠉⢢⣤⢂⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠁⠈⠿⠛⠃⢠⠀⠙⠚⠓⢄⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠠⠴⣾⠀⠰⠆⠚⠂⠀⣀⡀⠀⠀⠸⣷⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠉⢸⠀⠀⠀⠀⢀⣔⢵⡃⠀⠀⠀⠀⢾⣆⠀⠀⠀⠀⠀
+⠀⣖⣖⣖⣶⣞⣶⠀⠀⢸⠀⠀⣀⡠⢫⠞⠉⠀⠀⠀⠀⠀⠀⠈⢧⠀⠀⣠⣤
+⢠⠀⠀⠀⠀⠀⠀⡆⠀⢸⡀⢈⢖⡕⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡆⣴⣉⡟
+⢸⠀⢠⡖⢂⡭⠭⠭⠝⢛⣻⣣⡮⠭⢍⢒⡆⠀⠀⠀⠀⠀⠀⠀⠀⣿⢹⠏⠀
+⢸⠀⠨⣯⣍⣁⣒⣒⠒⠒⣒⣒⣋⣉⣩⣥⡇⠀⠀⠀⠀⠀⠀⠀⢠⠟⠁⠀⠀
+⢸⣀⣀⢳⠀⠈⠉⠉⠉⠉⠉⠉⠉⠀⠀⡸⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀
+⠈⣧⡴⢿⡳⣀⠀⠀⠀⠀⠀⠀⠀⢀⠴⠗⠒⠒⠒⠒⠒⠧⠞⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢺⢈⡏⠑⠒⠂⠀⠐⠒⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</pre>
+</div>
+<h3 id="mini-sitio">3. Mini sitio (3 páginas conectadas)</h3>
+<div class="bloque" markdown="1">
+
+
+Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pasar de una página web a otra al hacer clic.
+
+</div>
+
+<h3 id="css-intermedio">4. CSS intermedio (interacción y layout)</h3>
+
+<div class="bloque" markdown="1">
+
+Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pasar de una página web a otra al hacer clic.
+
+</div>
 
 <div style="text-align: center; font-size: 30px; color: #801854; white-space: nowrap; overflow: hidden;">
 ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚
 </div>
+
 <h1 style="text-align: center; border-bottom: none;"><q>Unidad II</q></h1>
 
-<h3 id="mini-sitio">3. Mini sitio (3 páginas conectadas)</h3>
-
-<h3 id="css-intermedio">4. CSS intermedio (interacción y layout)</h3>
 
 
 
