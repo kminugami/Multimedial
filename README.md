@@ -36,9 +36,11 @@ pre {
 4. [css-intermedio-interacción-y-layout](#4-css-intermedio-interacción-y-layout) <br>
 
 <h2 style="border-bottom: none;">Unidad II. <a href="#programación-visual-creativa-basada-en-nodos">Programación visual creativa basada en nodos</a></h2>
-
+<div style="text-align: center; font-size: 30px; color: #ff7ac6; white-space: nowrap; overflow: hidden;">
+₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚
+</div>
 <h1 style="text-align: center; border-bottom: none;">Unidad I</h1>
-<h3 style="text-align: center; border-bottom: none;">₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚</h3>
+
 
 #### 1. Mi primera página:
 
