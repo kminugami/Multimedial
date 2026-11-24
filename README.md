@@ -517,11 +517,14 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que dirige a u
 </div>
 <h3 id="mini-sitio">3. Mini sitio (3 páginas conectadas)</h3>
 <div class="bloque" markdown="1">
-
-
-Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pasar de una página web a otra al hacer clic.
-
+Como se mostró anteriormente, realicé una página que contenía index, obras y contacto. En index se ubica el lugar destinado para colocar las contraseñas, en obras hay grabados de mi propiedad con su respectiva definición y, finalmente, en contactos deberían estar en teoría mis datos!
+<div style="text-align: center;">
+<img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_88.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+<br>
+<img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_84.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
 </div>
+</div>
+
 
 <h3 id="css-intermedio">4. CSS intermedio (interacción y layout)</h3>
 
