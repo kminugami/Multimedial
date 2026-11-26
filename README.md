@@ -1031,12 +1031,12 @@ Puedes utilizar los sistemas L para crear, por ejemplo:
 </div>
 
 <div style="text-align: center;">
-<img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/LSystem.gif" alt="Ejercicio LSystem" style="width: 600px; max-width: 100%; border-radius: 12px; margin: 10px 0;" >
-</div>
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/LSystem.gif" style="width: 600px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+<br> 
 
 <div class="bloque" markdown="1">
 En mi trabajo incuí 6 Slider que controlaban diferentes parámetros de estos "arbolitos".
-Incluí nodos TOP como Mirror, Bloom y Edge para crear diferentes efectos controlables.
+Incluí nodos TOP como Mirror, Bloom y Edge para crear diferentes efectos.
 
 - Las reglas utilizadas en este caso son:
 
@@ -1048,7 +1048,21 @@ B=&FFFAJ--`
 
 <h3 id="point">3. Ejercicio Point</h3>
 <div class="bloque" markdown="1">
-QUE ES POINT
+El ejercicio Point (o nube de puntos / Point Cloud) consiste en transformar una imagen o video tradicional (2D) en un conjunto de puntos individuales en el espacio. En TouchDesigner, esto se logra leyendo la información de color y brillo de cada píxel para convertirla en coordenadas de posición, permitiendo manipular la imagen como si fuera una estructura de partículas que se puede deformar, desplazar y animar en tiempo real.
+</div>
+
+<div style="text-align: center;">
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Point.gif" style="width: 600px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+<br> 
+
+</div>
+<div class="bloque" markdown="1">
+En mi trabajo utilicé un video de mi cara siendo aplastada con un vidrio. Este lo utilizo también en mi examen de grado, de otra manera. 
+Este ejercicio estaba controlado por 3 Sliders:
+
+- **Switch:** permite alternar entre las distintas versiones visuales de la imagen base.
+
+- **PeriodNoise y HarmonicsNoise:** modifican los parámetros de un nodo Noise para distorsionar y darle movimiento orgánico a la nube de puntos..
 </div>
 
 <h3 id="comfyai">4. Uso ComfyUI</h3>
@@ -1067,7 +1081,55 @@ ComfyUI es una interfaz de código abierto basada en nodos para crear flujos de 
 
 <h3 id="ejercicio-final">5. Ejercicio Final</h3>
 
+**Parte 1: Definir Guion/Storyboard** 
 
+<details markdown="1">
+<summary>PRIMER GUION</summary>
+
+```
+En un espacio en blanco
+- Escena 1
+Empiezan a aparecer seres borrosos (de color negro) que caminan, algunos de izquierda a
+derecha otros de derecha a izquierda.
+Sonido ambiental, no pasos
+-Escena 2
+Siguen apareciendo más hasta ser muchos y llenar un poco el espacio que antes estaba en
+blanco.
+Sigue el sonido ambiental sin pasos
+-Escena 3
+Se escucha un sonido de fondo, indicando que algo pasará, los seres se siguen moviendo.
+-Escena 4
+Algo cambia, se asoma un ser azul que posee sonido, se escuchan sus pasos y se mezcla
+entre la multitud pero aún así se ve su color característico.
+Sonido ambiental + pasos del ser azul
+-Escena 5
+El ser nuevo parece confundido ya que se queda en el centro, ya no se escuchan sus
+pasos. Sin embargo, empieza a emitir un sonido (controlarse mediante slider?).
+Sonido ambiental + sonido emitido por el ser azul
+-Escena 6
+Cada vez entran menos otros seres insonoros, ahora salen y no vuelven a entrar, dejando
+ver aún más al ser azul que sigue emitiendo el sonido
+-Escena 7
+El ser azul finalmente se queda solo, emitiendo su sonido con eco en el fondo blanco por
+unos segundos.
+Sin sonido
+-Escena 8
+El ser azul deja de emitir el sonido y empieza a palpitar al ritmo de un corazón, hasta el
+final.
+Sonido de corazón
+```
+
+</details>
+
+<details markdown="1">
+<summary>PRIMER STORYBOARD</summary>
+
+
+<div style="text-align: center;">
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/StoryBoard.jpg" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+<br> 
+
+</details>
 
 
 <img id="mi-cursor" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/cursor.gif" style="position: fixed; top: 0; left: 0; width: 32px; pointer-events: none; z-index: 9999; display: none;">
