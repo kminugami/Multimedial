@@ -429,7 +429,9 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pa
 <div class="bloque" markdown="1">
 
 2. `Ejemplo con dos páginas`
-* Index
+
+**Index**
+
 ```
 <!DOCTYPE html>
 <html>
@@ -446,7 +448,9 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pa
 </body>
 </html>
 ```
-* Página 2
+
+**Página 2**
+
 ```
 <!DOCTYPE html>
 <html>
@@ -463,8 +467,9 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pa
 </body>
 </html>
 ```
-- Este ejemplo muestra cómo crear una navegación básica de ida y vuelta conectando dos archivos HTML distintos: uno llamado index.html (la página principal) y otro llamado pagina2.html (la segunda página). 
-- En el primer archivo se muestra el encabezado "Página principal" junto con un enlace que, al hacerle clic, lleva directamente a la segunda página. A su vez, dentro del segundo archivo aparece el encabezado "Esta es la segunda página" acompañado de otro enlace que permite regresar al inicio. De esta manera, ambos documentos quedan vinculados entre sí, logrando que la persona pueda moverse libremente de una página a otra. 
+
+- Este ejemplo muestra cómo crear una navegación básica de ida y vuelta conectando dos archivos HTML distintos: uno llamado index.html (la página principal) y otro llamado pagina2.html (la segunda página).
+- En el primer archivo se muestra el encabezado "Página principal" junto con un enlace que, al hacerle clic, lleva directamente a la segunda página. A su vez, dentro del segundo archivo aparece el encabezado "Esta es la segunda página" acompañado de otro enlace que permite regresar al inicio. De esta manera, ambos documentos quedan vinculados entre sí, logrando que la persona pueda moverse libremente de una página a otra.
 
 </div>
 <div style="text-align: center;">
@@ -539,13 +544,6 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pa
 </div>
 
 <h1 style="text-align: center; border-bottom: none;"><q>Unidad II</q></h1>
-
-
-
-
-
-
-
 
 
 
