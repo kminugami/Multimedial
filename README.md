@@ -71,7 +71,7 @@ pre {
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
 
 ### Exploración creativa de arte, tecnología y medios digitales interactivos .𖥔 ݁ ˖๋ ࣭ ⭑
-## Unidad I. [Hipervínculo](#unidad-i--hipervinculo-) <br> 
+## Unidad I. [Hipervínculo](#hipervinculo) <br>
 
 
  1. [Mi Primera página.](#mi-primera-pagina) <br>
@@ -81,12 +81,20 @@ pre {
 
 ## Unidad II. [Programación visual creativa basada en nodos](#programacion-visual) <br>
 
+1. [Introducción a TouchDesigner](#touchdesigner) <br>
+2. [Ejercicio LSystem](#lsystem) <br>
+3. [Ejercicio Point](#point) <br>
+4. [Uso ComfyAi](#comfyai) <br>
+5. [Ejercicio Final](#ejercicio-final) <br>
+
+
+
 <div style="text-align: center; font-size: 30px; color: #801854; white-space: nowrap; overflow: hidden;">
 ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚
 </div>
 <h1 style="text-align: center; border-bottom: none;"><q>Unidad I</q></h1>
 
-
+<h3 id="hipervinculo" style="text-align: center;">Hipervínculo</h3>
 <h3 id="mi-primera-pagina">1. Mi primera página: <a href="https://kminugami.github.io/Multimedial/w/">https://kminugami.github.io/Multimedial/w/</a></h3>
 
 <div class="bloque" markdown="1">
@@ -552,9 +560,9 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que dirige a u
 <div class="bloque" markdown="1">
 Como se mostró anteriormente, realicé una página que contenía index, obras y contacto. En index se ubica el lugar destinado para colocar las contraseñas, en obras hay grabados de mi propiedad con su respectiva definición y, finalmente, en contactos deberían estar en teoría mis datos!
 <div style="text-align: center;">
-<img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_88.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+<a href="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_88.png" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_88.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;"></a>
 <br>
-<img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_84.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+<a href="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_84.png" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_84.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;"></a>
 </div>
 </div>
 
@@ -984,30 +992,28 @@ Formas de centrar texto
 </pre>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div style="text-align: center; font-size: 30px; color: #801854; white-space: nowrap; overflow: hidden;">
 ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚
 </div>
 
-
-
 <h1 style="text-align: center; border-bottom: none;"><q>Unidad II</q></h1>
 
-<h3 id="programacion-visual">Programación visual creativa basada en nodos</h3>
+<h3 id="programacion-visual" style="text-align: center;">Programación visual creativa basada en nodos</h3>
+
+<h3 id="touchdesigner">1. Introducción a TouchDesigner</h3>
+
+**Objetivos** 
+- Entender qué es TouchDesigner y sus aplicaciones
+- Conocer la interfaz y navegación básica
+- Crear el primer proyecto.
+<div class="bloque" markdown="1">
+¿Qué es TouchDesigner? Historia y usos profesionales
+
+*  Es un lenguaje de programación visual basado en nodos para contenido multimedia interactivo en tiempo real . Desarrollado por la empresa “Derivative” de Toronto, es utilizado frecuentemente por artistas, programadores, codificadores creativos, diseñadores de software y artistas para crear performances, instalaciones y obras multimedia fijas. [1](https://en.wikipedia.org/wiki/TouchDesigner)
+</div>
+<div style="text-align: center;">
+<a href="https://derivative.ca/" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Logo.png" alt="Logo de TouchDesigner" style="width: 200px; max-width: 100%; background: transparent !important;"></a>
+</div>
 
 
 
@@ -1016,9 +1022,21 @@ Formas de centrar texto
 
 
 
+<h3 id="lsystem">2. Ejercicio LSystem</h3>
 
 
 
+
+<h3 id="point">3. Ejercicio Point</h3>
+
+
+
+<h3 id="comfyai">4. Uso ComfyAi</h3>
+
+
+
+
+<h3 id="ejercicio-final">5. Ejercicio Final</h3>
 
 
 
