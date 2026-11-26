@@ -55,7 +55,17 @@ pre {
 .e5-side a { color: white !important; padding: 15px; text-decoration: none; }
 .e5-side a:hover { background: red; }
 
+/* Ejercicios 1 a 4: demos */
+.e1-boton { display: inline-block; background-color: #3a2f55; color: white !important; padding: 15px; width: 150px; text-align: center; text-decoration: none; border-radius: 8px; transition: 0.3s; }
+.e1-boton:hover { background-color: #801854; }
 
+.e2-cont { display: flex; justify-content: space-around; }
+.e2-caja { background-color: #3a2f55; padding: 20px; border-radius: 8px; }
+
+.e3-pantalla { display: flex; justify-content: center; align-items: center; height: 200px; border: 1px solid #ff7ac6; border-radius: 8px; }
+.e3-caja { background-color: #801854; color: white; padding: 30px; border-radius: 8px; }
+
+.bloque .e4-img { width: 300px; max-width: 100%; height: 200px; object-fit: cover; border: 5px solid #ff7ac6; margin: 0; }
 </style>
 
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
@@ -558,7 +568,7 @@ Objetivo general
 * Controlar imágenes y proporciones
 * Empezar a pensar en diseño más dinámico
 
-<div class="bloque" markdown="1">
+<div class="bloque" id="ejercicio-1" markdown="1">
 
 Ejercicio 1: Efecto Hover (interacción)
 
@@ -588,6 +598,11 @@ Ejercicio 1: Efecto Hover (interacción)
 
 <a href="https://google.com" class="boton">Ir a Google</a>
 ```
+**Resultado**
+
+<div markdown="0">
+<a href="#ejercicio-1" class="e1-boton">Ir a Google</a>
+</div>
 </div>
 
 <div class="bloque" markdown="1">
@@ -620,6 +635,15 @@ Ejercicio 2: Flexbox (alineación horizontal)
   <div class="caja">3</div> <!-- Tercer bloque -->
 </div>
 ```
+**Resultado**
+
+<div markdown="0">
+<div class="e2-cont">
+  <div class="e2-caja">1</div>
+  <div class="e2-caja">2</div>
+  <div class="e2-caja">3</div>
+</div>
+</div>
 </div>
 
 <div class="bloque" markdown="1">
@@ -649,6 +673,13 @@ body { /* Aplica estilos al cuerpo completo de la página */
 
 <div class="caja">Centro</div> <!-- Elemento centrado en pantalla -->
 ```
+**Resultado**
+
+<div markdown="0">
+<div class="e3-pantalla">
+  <div class="e3-caja">Centro</div>
+</div>
+</div>
 </div>
 
 <div class="bloque" markdown="1">
@@ -675,6 +706,11 @@ img { /* Aplica a todas las imágenes */
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg" /> <!-- Imagen de ejemplo -->
 ```
+**Resultado**
+
+<div markdown="0">
+<img class="e4-img" src="https://kminugami.github.io/Multimedial/img/Banner.gif">
+</div>
 </div>
 
 <div class="bloque" id="ejercicio-5" markdown="1">
@@ -692,13 +728,13 @@ Ejercicio 5: Composición con flex
 <div class="e5-comp">
   <div class="e5-grande"></div>
   <div class="e5-col e5-med">
-    <div style="background:#801854;"></div>
+    <div style="background:#3a2f55;"></div>
     <div style="background:#3a2f55;"></div>
   </div>
   <div class="e5-col e5-peq">
-    <div style="background:#7ad7ff;"></div>
-    <div style="background:#ffd27a;"></div>
-    <div style="background:#b7ff7a;"></div>
+    <div style="background:#801854;"></div>
+    <div style="background:#801854;"></div>
+    <div style="background:#801854;"></div>
   </div>
 </div>
 </div>
