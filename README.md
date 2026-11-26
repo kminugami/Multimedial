@@ -66,6 +66,10 @@ pre {
 .e3-caja { background-color: #801854; color: white; padding: 30px; border-radius: 8px; }
 
 .bloque .e4-img { width: 300px; max-width: 100%; height: 200px; object-fit: cover; border: 5px solid #ff7ac6; margin: 0; }
+
+/* Zoom de imágenes */
+#zoom-fondo { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(20, 16, 31, 0.92); z-index: 9000; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box; }
+#zoom-fondo img { max-width: 95%; max-height: 95%; border-radius: 12px; }
 </style>
 
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
@@ -560,9 +564,9 @@ Ese fragmento de código HTML sirve para crear un enlace (o link) que dirige a u
 <div class="bloque" markdown="1">
 Como se mostró anteriormente, realicé una página que contenía index, obras y contacto. En index se ubica el lugar destinado para colocar las contraseñas, en obras hay grabados de mi propiedad con su respectiva definición y, finalmente, en contactos deberían estar en teoría mis datos!
 <div style="text-align: center;">
-<a href="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_88.png" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_88.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;"></a>
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_88.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
 <br>
-<a href="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_84.png" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_84.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;"></a>
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Screenshot_84.png" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
 </div>
 </div>
 
@@ -1056,4 +1060,17 @@ document.addEventListener("mousemove", function(e) {
   cursor.style.left = e.clientX + "px";
   cursor.style.top = e.clientY + "px";
 });
+<div id="zoom-fondo"><img id="zoom-img" src=""></div>
+<script>
+var fondo = document.getElementById("zoom-fondo");
+var fotoGrande = document.getElementById("zoom-img");
+document.querySelectorAll("img.zoom").forEach(function(img) {
+  img.addEventListener("click", function() {
+    fotoGrande.src = img.src;
+    fondo.style.display = "flex";
+  });
+});
+fondo.addEventListener("click", function() { fondo.style.display = "none"; });
+document.addEventListener("keydown", function(e) { if (e.key === "Escape") fondo.style.display = "none"; });
+</script>
 </script>
