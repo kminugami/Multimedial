@@ -1019,17 +1019,32 @@ Formas de centrar texto
 <a href="https://derivative.ca/" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Logo.png" alt="Logo de TouchDesigner" style="width: 200px; max-width: 100%; background: transparent !important;"></a>
 </div>
 
-
-
-
-
-
-
-
 <h3 id="lsystem">2. Ejercicio LSystem</h3>
 
+<div class="bloque" markdown="1">
 
+El SOP «Lsystem» implementa los sistemas L (sistemas de Lindenmayer, que reciben su nombre de Aristid Lindenmayer (1925-1989)), que permiten definir formas complejas mediante el uso de la iteración. Utilizan un lenguaje matemático en el que una cadena inicial de caracteres se evalúa repetidamente, y los resultados se utilizan para generar geometría. El resultado de cada evaluación se convierte en la base para la siguiente iteración de la geometría, lo que da la impresión de crecimiento.
+Se empieza a construir un sistema L definiendo una secuencia de reglas que se evalúan para producir una nueva cadena de caracteres. Cada carácter de la nueva cadena representa un comando que afecta a un lápiz imaginario, o «tortuga». Al repetir este proceso, la geometría irá creciendo.
+Puedes utilizar los sistemas L para crear, por ejemplo:
+- Objetos orgánicos como árboles, plantas o flores a lo largo del tiempo.
+- Objetos ramificados animados, como rayos y copos de nieve. [2](https://derivative.ca/UserGuide/LSystem_SOP)
+</div>
 
+<div style="text-align: center;">
+<img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/LSystem.gif" alt="Ejercicio LSystem" style="width: 600px; max-width: 100%; border-radius: 12px; margin: 10px 0;" >
+</div>
+
+<div class="bloque" markdown="1">
+En mi trabajo incuí 6 Slider que controlaban diferentes parámetros de estos "arbolitos".
+Incluí nodos TOP como Mirror, Bloom y Edge para crear diferentes efectos controlables.
+
+- Las reglas utilizadas en este caso son:
+
+`context_ignore:F+-
+premise:FFFA
+A=!"[B]////[B]////B
+B=&FFFAJ--`
+</div>
 
 <h3 id="point">3. Ejercicio Point</h3>
 
