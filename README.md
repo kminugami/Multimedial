@@ -88,7 +88,7 @@ pre {
 1. [Introducción a TouchDesigner](#touchdesigner) <br>
 2. [Ejercicio LSystem](#lsystem) <br>
 3. [Ejercicio Point](#point) <br>
-4. [Uso ComfyAi](#comfyai) <br>
+4. [Uso ComfyUI](#comfyai) <br>
 5. [Ejercicio Final](#ejercicio-final) <br>
 
 
@@ -1047,12 +1047,22 @@ B=&FFFAJ--`
 </div>
 
 <h3 id="point">3. Ejercicio Point</h3>
+<div class="bloque" markdown="1">
+QUE ES POINT
+</div>
 
+<h3 id="comfyai">4. Uso ComfyUI</h3>
 
+<div class="bloque" markdown="1">
+ComfyUI es una interfaz de código abierto basada en nodos para crear flujos de trabajo de inteligencia artificial generativa. Permite generar y editar imágenes, videos, audio y 3D conectando bloques visuales en lugar de depender de menús cerrados.
 
-<h3 id="comfyai">4. Uso ComfyAi</h3>
+- Características principales:
+1. Sistema de nodos: Cada nodo cumple una función específica y se conecta a otros para armar procesos repetibles.
 
+2. Ejecución local o en la nube: Funciona de forma gratuita y sin conexión en hardware propio o mediante servicios en la nube y APIs.
 
+3. Amplia compatibilidad: Soporta modelos abiertos y comerciales
+</div>
 
 
 <h3 id="ejercicio-final">5. Ejercicio Final</h3>
@@ -1087,5 +1097,4 @@ document.querySelectorAll("img.zoom").forEach(function(img) {
 });
 fondo.addEventListener("click", function() { fondo.style.display = "none"; });
 document.addEventListener("keydown", function(e) { if (e.key === "Escape") fondo.style.display = "none"; });
-</script>
 </script>
