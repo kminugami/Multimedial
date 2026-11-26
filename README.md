@@ -38,6 +38,24 @@ pre {
 .bloque img { width: 100%; border-radius: 8px; }
 .sin-linea { border-bottom: none !important; }
 #mi-cursor { background: transparent !important; }
+
+/* Ejercicio 5: demos */
+.e5-comp { display: flex; gap: 10px; height: 200px; }
+.e5-grande { flex: 3; background: #ff7ac6; border-radius: 8px; }
+.e5-col { display: flex; flex-direction: column; gap: 10px; }
+.e5-med { flex: 2; }
+.e5-peq { flex: 1; }
+.e5-col > div { flex: 1; border-radius: 8px; }
+
+.e5-nav { display: flex; background: #333; border-radius: 8px; overflow: hidden; }
+.e5-nav a { color: white !important; padding: 14px 20px; text-decoration: none; }
+.e5-nav a:hover { background: red; }
+
+.e5-side { display: flex; flex-direction: column; width: 200px; background: #333; border-radius: 8px; overflow: hidden; }
+.e5-side a { color: white !important; padding: 15px; text-decoration: none; }
+.e5-side a:hover { background: red; }
+
+
 </style>
 
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
@@ -533,17 +551,384 @@ Como se mostró anteriormente, realicé una página que contenía index, obras y
 
 <h3 id="css-intermedio">4. CSS intermedio (interacción y layout)</h3>
 
+Objetivo general
+
+* Introducir hover (interacción)
+* Entender flexbox (alineación)
+* Controlar imágenes y proporciones
+* Empezar a pensar en diseño más dinámico
+
 <div class="bloque" markdown="1">
 
-Ese fragmento de código HTML sirve para crear un enlace (o link) que permite pasar de una página web a otra al hacer clic.
+Ejercicio 1: Efecto Hover (interacción)
+
+ * OBJETIVO → *Que los elementos reaccionen al mouse*
+ * INSTRUCCIONES:
+ 1. Crear un botón o bloque
+ 2. Cambiar su color cuando el mouse pasa encima
+ 3. Agregar una transición suave
+
+
+**Código base**
+```
+<style>
+.boton { /* Define una clase llamada "boton" */
+  background-color: blue; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  padding: 15px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+  width: 150px; /* Ancho fijo del botón */
+  text-align: center; /* Centra el texto horizontalmente */
+  transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+}
+
+.boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
+  background-color: red; /* Cambia el color de fondo al pasar el mouse */
+}
+</style>
+
+<a href="https://google.com" class="boton">Ir a Google</a>
+```
+</div>
+
+<div class="bloque" markdown="1">
+
+Ejercicio 2: Flexbox (alineación horizontal)
+
+ * OBJETIVO → *Ordenar elementos en fila*
+ * INSTRUCCIONES:
+ 1. Crear 3 bloques
+ 2. Alinearlos horizontalmente
+ 3. Separarlos de forma uniforme
+
+**Código base**
+```
+<style>
+.contenedor { /* Clase contenedora */
+  display: flex; /* Activa flexbox: organiza los hijos en fila */
+  justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+}
+
+.caja { /* Clase para cada bloque */
+  background-color: lightgreen; /* Color de fondo */
+  padding: 20px; /* Espacio interno */
+}
+</style>
+
+<div class="contenedor"> <!-- Contenedor flex -->
+  <div class="caja">1</div> <!-- Primer bloque -->
+  <div class="caja">2</div> <!-- Segundo bloque -->
+  <div class="caja">3</div> <!-- Tercer bloque -->
+</div>
+```
+</div>
+
+<div class="bloque" markdown="1">
+
+Ejercicio 3: Flexbox (centrado total)
+
+ * OBJETIVO → *Centrar elementos en pantalla (muy útil)*
+ * INSTRUCCIONES:
+ 1. Centrar un elemento en el medio exacto de la pantalla (horizontal y vertical)
+
+**Código base**
+```
+<style>
+body { /* Aplica estilos al cuerpo completo de la página */
+  display: flex; /* Activa flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Altura total de la pantalla (viewport height) */
+}
+
+.caja { /* Elemento que será centrado */
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  padding: 30px; /* Espacio interno */
+}
+</style>
+
+<div class="caja">Centro</div> <!-- Elemento centrado en pantalla -->
+```
+</div>
+
+<div class="bloque" markdown="1">
+
+Ejercicio 4:  Imágenes controladas
+
+ * OBJETIVO → *Manejar imágenes correctamente*
+ * INSTRUCCIONES:
+ 1. Insertar una imagen
+ 2. Ajustarla para que no se deforme
+ 3. Agregar borde y estilo
+
+**Código base**
+```
+<style>
+<style>
+img { /* Aplica a todas las imágenes */
+  width: 300px; /* Ancho fijo */
+  height: 200px; /* Alto fijo */
+  object-fit: cover; /* Ajusta la imagen sin deformarla (recorta si es necesario) */
+  border: 5px solid black; /* Borde negro de 5px */
+}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg" /> <!-- Imagen de ejemplo -->
+```
+</div>
+
+<div class="bloque" id="ejercicio-5" markdown="1">
+
+Ejercicio 5: Composición con flex
+
+* OBJETIVO → *Crear una composición visual tipo obra*
+* INSTRUCCIONES:
+    1. Crear una grilla simple usando flex
+    2. Combinar distintos tamaños de bloques
+    3. Usar colores como lenguaje visual
+* IDEA → *1 bloque grande, 2 medianos y 3 pequeños*
+
+<div markdown="0">
+<div class="e5-comp">
+  <div class="e5-grande"></div>
+  <div class="e5-col e5-med">
+    <div style="background:#801854;"></div>
+    <div style="background:#3a2f55;"></div>
+  </div>
+  <div class="e5-col e5-peq">
+    <div style="background:#7ad7ff;"></div>
+    <div style="background:#ffd27a;"></div>
+    <div style="background:#b7ff7a;"></div>
+  </div>
+</div>
+</div>
+
+<details markdown="1">
+<summary>Ver código</summary>
+
+```
+<style>
+.composicion { display: flex; gap: 10px; height: 200px; }
+.grande { flex: 3; background: #ff7ac6; }
+.columna { display: flex; flex-direction: column; gap: 10px; }
+.medianos { flex: 2; }
+.pequenos { flex: 1; }
+.columna div { flex: 1; }
+</style>
+
+<div class="composicion">
+  <div class="grande"></div>
+  <div class="columna medianos">
+    <div style="background: #801854;"></div>
+    <div style="background: #3a2f55;"></div>
+  </div>
+  <div class="columna pequenos">
+    <div style="background: #7ad7ff;"></div>
+    <div style="background: #ffd27a;"></div>
+    <div style="background: #b7ff7a;"></div>
+  </div>
+</div>
+```
+
+</details>
 
 </div>
+
+<div class="bloque" markdown="1">
+
+Barras de navegación con flexbox
+
+*Horizontal:* `display: flex` pone los links en fila.
+
+<div markdown="0">
+<div class="e5-nav">
+  <a href="#ejercicio-5">Inicio</a>
+  <a href="#ejercicio-5">Proyectos</a>
+  <a href="#ejercicio-5">Contacto</a>
+</div>
+</div>
+
+<details markdown="1">
+<summary>Ver código</summary>
+
+```
+<style>
+.navbar { display: flex; background-color: #333; }
+.navbar a { color: white; padding: 14px 20px; text-decoration: none; }
+.navbar a:hover { background-color: red; }
+</style>
+
+<div class="navbar">
+  <a href="#">Inicio</a>
+  <a href="#">Proyectos</a>
+  <a href="#">Contacto</a>
+</div>
+```
+
+</details>
+
+*Vertical:* se agrega `flex-direction: column` y los links quedan en columna.
+
+<div markdown="0">
+<div class="e5-side">
+  <a href="#ejercicio-5">Inicio</a>
+  <a href="#ejercicio-5">Proyectos</a>
+  <a href="#ejercicio-5">Contacto</a>
+</div>
+</div>
+
+<details markdown="1">
+<summary>Ver código</summary>
+
+```
+<style>
+.sidebar { display: flex; flex-direction: column; width: 200px; background-color: #333; }
+.sidebar a { color: white; padding: 15px; text-decoration: none; }
+.sidebar a:hover { background-color: red; }
+</style>
+
+<div class="sidebar">
+  <a href="#">Inicio</a>
+  <a href="#">Proyectos</a>
+  <a href="#">Contacto</a>
+</div>
+```
+
+</details>
+
+</div>
+
+<div class="bloque" markdown="1">
+
+Formas de centrar texto
+
+**1. Horizontal con `text-align`**
+
+<div markdown="0">
+<div style="text-align: center; border: 1px solid #ff7ac6; padding: 10px;">Este texto está centrado horizontalmente</div>
+</div>
+
+<details markdown="1">
+<summary>Ver código</summary>
+
+```
+<div style="text-align: center;">
+  Este texto está centrado horizontalmente
+</div>
+```
+
+</details>
+
+**2. Horizontal y vertical con flexbox**
+
+<div markdown="0">
+<div style="display: flex; justify-content: center; align-items: center; height: 120px; border: 1px solid #ff7ac6;">Texto completamente centrado</div>
+</div>
+
+<details markdown="1">
+<summary>Ver código</summary>
+
+```
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border: 1px solid #ff7ac6;
+">
+  Texto completamente centrado
+</div>
+```
+
+* `display: flex` → activa flexbox
+* `justify-content: center` → centra en horizontal
+* `align-items: center` → centra en vertical
+* `height` → necesario para que se note el centrado vertical
+
+</details>
+
+**3. Con grid**
+
+<div markdown="0">
+<div style="display: grid; place-items: center; height: 120px; border: 1px solid #ff7ac6;">Texto centrado con grid</div>
+</div>
+
+<details markdown="1">
+<summary>Ver código</summary>
+
+```
+<div style="
+  display: grid;
+  place-items: center;
+  height: 120px;
+  border: 1px solid #ff7ac6;
+">
+  Texto centrado con grid
+</div>
+```
+
+</details>
+
+**4. Con `position` (la forma clásica)**
+
+<div markdown="0">
+<div style="position: relative; height: 120px; border: 1px solid #ff7ac6;">
+  <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0;">Texto centrado absoluto</p>
+</div>
+</div>
+
+<details markdown="1">
+<summary>Ver código</summary>
+
+```
+<div style="position: relative; height: 120px; border: 1px solid #ff7ac6;">
+  <p style="
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  ">
+    Texto centrado absoluto
+  </p>
+</div>
+```
+
+</details>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div style="text-align: center; font-size: 30px; color: #801854; white-space: nowrap; overflow: hidden;">
 ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚
 </div>
 
+
+
 <h1 style="text-align: center; border-bottom: none;"><q>Unidad II</q></h1>
+
+
+
+
+
+
+
 
 
 
