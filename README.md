@@ -1078,6 +1078,8 @@ ComfyUI es una interfaz de código abierto basada en nodos para crear flujos de 
 3. Amplia compatibilidad: Soporta modelos abiertos y comerciales.
 </div>
 
+<div style="text-align: center;">
+<a href="https://comfy.org/" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Logo2.png" alt="Logo de TouchDesigner" style="width: 200px; max-width: 100%; background: transparent !important;"></a>
 
 <h3 id="ejercicio-final">5. Ejercicio Final</h3>
 
