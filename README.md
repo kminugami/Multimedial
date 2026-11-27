@@ -97,7 +97,7 @@ th { background: #3a2f55 !important; color: #ff7ac6 !important; }
 4. [Uso ComfyUI](#comfyai) <br>
 5. [Ejercicio Final](#ejercicio-final) <br>
 
-
+## Conclusión. [Pensamientos finales acerca del curso](#conclusion) <br>
 
 <div style="text-align: center; font-size: 30px; color: #801854; white-space: nowrap; overflow: hidden;">
 ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚
@@ -1025,6 +1025,7 @@ Formas de centrar texto
 <a href="https://derivative.ca/" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Logo.png" alt="Logo de TouchDesigner" style="width: 200px; max-width: 100%; background: transparent !important;"></a>
 </div>
 
+***
 <h3 id="lsystem">2. Ejercicio LSystem</h3>
 
 <div class="bloque" markdown="1">
@@ -1052,6 +1053,7 @@ A=!"[B]////[B]////B
 B=&FFFAJ--`
 </div>
 
+***
 <h3 id="point">3. Ejercicio Point</h3>
 
 <div class="bloque" markdown="1">
@@ -1072,6 +1074,7 @@ Este ejercicio estaba controlado por 3 Sliders:
 - **PeriodNoise y HarmonicsNoise:** modifican los parámetros de un nodo Noise para distorsionar y darle movimiento orgánico a la nube de puntos..
 </div>
 
+***
 <h3 id="comfyai">4. Uso ComfyUI</h3>
 
 <div class="bloque" markdown="1">
@@ -1157,8 +1160,40 @@ Sin embargo, volví a hacer más con Gemini.
 ⠀⠀
 </pre>
 </div>
+</div>
+
+<div class="bloque" markdown="1">
+
+- Para generar imágenes con inteligencia artificial se necesita un **Prompt**.
+- Un **Prompt** (en español: instrucción, indicación o estímulo) es cualquier texto, pregunta,
+comando o conjunto de datos que se introduce en un sistema informático para provocar
+una respuesta o acción específica. En la actualidad, el término es la pieza central de la
+Inteligencia Artificial (IA) generativa, representando el mensaje o contexto en lenguaje
+natural que le proporcionas a modelos como ChatGPT, Claude o Midjourney para que
+generen contenido.
+- En mi caso, simplemente le mandé el guión y me dió este resultado con las escenas.
+
+<div style="text-align: center;">
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Ai1.jpg" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+</div>
+
+- También hubieron imágenes que no fueron de mi total agrado...
+
+
+<div style="text-align: center;">
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Fallo1.jpg" style="width: 400px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+</div>
 
 </div>
+
+
+
+
+
+
+
+
+****
 
 <h3 id="ejercicio-final">5. Ejercicio Final</h3>
 
@@ -1268,6 +1303,26 @@ A continuación la explicación del uso de los nodos en el trabajo:
 | Pirámide y brillo | `bloom1`, `slider2`, `circle1`, `button1` | Aparición pirámide y control del brillo|
 
 </div>
+
+<div style="text-align: center; font-size: 30px; color: #801854; white-space: nowrap; overflow: hidden;">
+₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚
+</div>
+
+<h1 id="conclusion" style="text-align: center; border-bottom: none;"><q>Conclusión</q></h1>
+
+<h3 style="text-align: center;">Pensamientos finales acerca del curso</h3>
+
+<div class="bloque" markdown="1">
+
+Durante el ramo Multimedial, que tuve durante todo este año, aprendí muchísimas cosas interesantes y que me sirivieron para realizar mi proyecto de grado. Pienso que la existencia de este curso me ayudó a darme cuenta cuánto me gusta hacer este tipo de cosas, crear páginas web, jugar con los códigos y TouchDesigner y cuestionar el uso de la IA. Y también no pienso parar de incoporar todo lo aprendido de aquí en adelante y espero llenarme de aún más conocimiento porque amo este mundo que descubrí. Muchas gracias!
+</div>
+
+<div style="text-align: center;">
+<img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/kawaii.gif" style="width: 400px; max-width: 100%; border-radius: 50px;">
+</div>
+
+
+
 
 
 
