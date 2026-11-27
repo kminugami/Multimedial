@@ -70,6 +70,12 @@ pre {
 /* Zoom de imágenes */
 #zoom-fondo { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(20, 16, 31, 0.92); z-index: 9000; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box; }
 #zoom-fondo img { max-width: 95%; max-height: 95%; border-radius: 12px; }
+
+/* Tablas y etapas */
+table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+th, td { border: 1px solid #801854; padding: 8px 10px; text-align: left; color: #e8e4f0 !important; background: #1f1830 !important; }
+th { background: #3a2f55 !important; color: #ff7ac6 !important; }
+.pill { display: inline-block; background: #3a2f55; border: 1px solid #ff7ac6; border-radius: 999px; padding: 4px 14px; margin: 4px 0; }
 </style>
 
 <img src="https://kminugami.github.io/Multimedial/img/Banner.gif" width="auto" height="auto" />
@@ -1081,6 +1087,76 @@ ComfyUI es una interfaz de código abierto basada en nodos para crear flujos de 
 <div style="text-align: center;">
 <a href="https://comfy.org/" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Logo2.png" alt="Logo de TouchDesigner" style="width: 200px; max-width: 100%; background: transparent !important;"></a>
 </div>
+
+<div class="bloque" markdown="1">
+Teníamos que hacer fotos con este programa para la clase pero me las borraron, estaban en Respaldo pero alguien las eliminó cuek.
+<div style="text-align: center;">
+<pre style="display: inline-block; text-align: left; background: none !important; border: none !important; overflow: visible !important; max-height: none !important; height: auto !important; font-family: 'DejaVu Sans Mono', 'Segoe UI Symbol', monospace; font-size: clamp(10px, 1.6vw, 9px); line-height: 1; letter-spacing: 0; margin: 0; padding: 0;"> 
+⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣤⣤⣤⣤⣤⣤⣤⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⡶⠞⠛⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠷⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⢷⣤⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⣠⡾⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣦⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣠⣴⠾⠛⠛⠋⠉⠙⠛⠻⠿⣿⣷⣶⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⣦⡀⠀⠀⠀
+⠀⠀⠀⠀⢀⣴⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢾⣝⠿⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣷⡄⠀⠀
+⠀⠀⠀⣰⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣨⣿⣷⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣶⣶⣄⠀⠀⠀⠀⠀⠀⠀⢹⣿⡄⠀
+⠀⠀⣼⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⠏⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣷⣤⣀⡀⠀⠀⠀⠀⢻⣧⠀
+⠀⣼⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠘⢷⡄⠘⢷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⠿⣿⣿⡿⠀⠀⠀⠀⣿⡀
+⢠⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⢻⡄⠈⢿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇
+⢸⡟⠀⠀⠀⠀⠀⢠⣾⣿⣿⣶⡀⠀⠀⢸⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⢿⣄⣈⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡇
+⢸⡁⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⡄⠀⠸⣿⣿⠏⠻⠿⠃⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣧⠀⠀⠀⠀⢰⣿⣿⣷⣤⣀⣀⣠⣴⣿⣿⡇⠀⠀⠀⠀⠀⠀⣿⡇
+⢸⡇⠀⠀⠀⠀⠀⠸⣿⣿⠉⠻⠿⠃⠀⠀⠈⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠋⢸⡆⠀⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀⢠⣿⡇
+⢸⡇⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣷⡄⠀⠀⠀⠀⠀⣿⠀⠘⠇⠀⠀⠀⠀⠀⠀⠉⠛⠛⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⣾⣿⠃
+⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⠟⣩⣿⣇⠀⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⡟⠀
+⠈⣿⠀⠀⠀⠀⠀⢰⣿⠿⢿⣿⣿⣿⣿⠿⠿⠛⠋⠉⣠⣾⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⠃⠀
+⠀⢹⣇⠀⠀⠀⠀⠘⣿⣷⣦⣤⣄⣀⣀⣀⣤⣤⣶⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣯⣿⠃⠀⠀
+⠀⠀⢿⣆⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⣼⣿⣿⠿⡿⠿⠿⠿⢿⠿⠟⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠁⠀⠀⠀
+⠀⠀⠈⢿⣆⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⡿⠿⠿⣿⣿⣿⡟⠀⠀⠀⠀⠀⢠⡿⢻⣧⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⢿⣯⡿⠃⠀⠀⠀⠀⠀
+⠀⠀⠀⠈⢻⣆⠀⠀⠀⠀⠀⠙⢿⣿⣿⡿⠋⠀⣶⠟⠛⠿⣿⣄⡀⠀⠀⠀⠀⣾⠃⠀⠻⣿⣦⡀⠀⠀⠀⠀⠀⠀⣀⣠⡴⣾⣿⣷⠟⠋⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠹⣧⡀⠀⠀⠀⠀⠀⠈⣹⡿⠷⢶⣿⣆⡀⠀⠀⠉⠛⠷⣦⣄⣴⣿⣦⠀⠀⠙⢿⣿⣦⣤⣴⠶⣾⣻⣯⣷⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠈⠻⣦⡀⠀⠀⠀⠀⢻⣄⠀⠀⠈⠙⢿⣶⣤⣀⠀⠀⠀⠉⠙⠛⠛⠀⠀⠀⠀⠙⢿⣿⣿⣟⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣶⣄⡀⠀⢀⣿⣷⣦⣀⠀⠀⠈⠙⠻⢿⣷⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢷⣾⡋⠈⠙⠿⣿⣶⣤⣀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣷⣤⣀⠀⠈⠉⠛⠿⠷⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠟⠿⣿⣶⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣦⣄⠀⠉⠙⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣷⣦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⣿⣶⣦⣤⣄⣀⣀⣀⣀⣀⣀⣤⣴⠾⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠛⠛⠛⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+</div>
+Sin embargo, volví a hacer más con Gemini.
+<div style="text-align: center;">
+<pre style="display: inline-block; text-align: left; background: none !important; border: none !important; overflow: visible !important; max-height: none !important; height: auto !important; font-family: 'DejaVu Sans Mono', 'Segoe UI Symbol', monospace; font-size: clamp( 1.6vw, px); line-height: 1; letter-spacing: 0; margin: 0; padding: 0;"> 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⡿⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⡶⠶⢖⠦⣄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣷⡀⠀⠀⠀⠀⠀⠐⠋⠉⠉⠛⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠟⠁⠀⠀⢀⠇⠈⢳⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⠋⠀⠀⠀⢀⣀⣠⠤⠤⠤⠤⠤⠤⠤⢌⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⢻⠀⠀⠀⠀⠈⠀⠀⢸⠇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠁⣠⠤⠒⣋⡭⠤⠒⠒⠉⠉⡩⢟⣣⣤⣀⡢⣬⣉⠒⠤⣄⠀⠀⠀⠀⠀⠀⠀⠀⢼⠈⠃⠀⠀⠀⠀⠀⠀⡞⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠖⣉⠴⠒⠉⠀⠀⠀⠀⠀⢀⣞⣴⠟⠋⠉⠛⢿⣾⣎⠑⢤⡀⠙⠢⣄⠀⠀⠀⠀⠀⠸⡄⠀⠀⠀⠀⠀⠀⣸⠃⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⢋⡤⢊⣁⡀⠀⠀⠀⠀⠀⠀⠀⣞⣾⠃⠀⠀⠀⠀⠀⠹⣿⡄⠀⠱⡄⠀⠈⠑⣄⠀⠀⢀⣠⣽⠶⠶⠶⠒⠒⠒⠛⢤⣄⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠋⡴⢋⢔⣭⣴⣿⣷⣤⠀⠀⠀⠀⠰⣽⠃⠀⠀⠀⠀⠀⠀⠀⢹⣇⠀⠀⠘⡄⠀⠀⠈⢳⣶⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠯⠻⣦⡀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡜⢡⠎⢠⢯⣿⠋⠁⠀⠈⠻⣷⠀⠀⠀⠀⡏⠀⠀⠀⠐⢷⢶⣄⠀⠀⣿⠀⠀⠐⠁⠀⠀⢰⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠪⠙⣆⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡞⢠⠃⠀⣮⡿⠁⠀⠀⠀⠀⠀⠻⣇⠀⠀⢸⡇⠀⠀⢀⠀⣸⣷⣻⡄⠀⣿⠀⠀⠀⠀⠀⠀⣏⠓⠒⢀⣀⣀⣀⣀⣀⣀⣀⣀⠀⢠⠖⠀⠀⠀⠘⡄
+⠀⠀⣀⣠⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡞⢀⠇⠀⢰⣿⠇⠀⠀⠀⠀⠶⣶⡄⢹⠀⠀⠀⡇⠀⠀⣾⢹⣿⣿⣏⡇⠀⣿⠀⠀⣀⣤⡤⠤⣼⣶⠿⠛⠉⠀⠀⠀⠀⠀⠀⠉⠙⡇⠀⠀⠀⠀⠀⠀
+⣠⢾⠋⠀⠀⠈⠻⡷⣄⠀⠀⠀⠀⠀⠀⢰⠁⠸⠀⠀⠸⣿⠀⠀⠀⠀⣄⣀⣷⣽⣸⠀⠀⠀⣇⠀⠀⠸⣞⣿⣅⣽⠁⢀⣇⣴⠞⠋⠁⠀⣼⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠇⠀⠀⠀⠀⠀⠀
+⡇⠘⠂⠀⠀⠀⠀⠁⠘⡆⠀⠀⠀⠀⠀⡏⠀⠀⠀⠀⢰⣿⠀⠀⠀⠀⣇⣿⣿⣿⣿⠀⠀⠀⠸⡄⠀⠀⠙⠧⠽⠃⠀⡼⠋⠀⠀⠀⠀⠀⣯⠦⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀
+⢳⡀⠀⠀⠀⠀⠀⠀⢀⣹⣤⣤⣤⣤⣄⡇⠀⠰⠀⠀⠀⣿⠀⠀⠀⠀⢻⡽⠿⣾⢹⠀⠀⠀⠀⠻⡄⠀⠀⠀⠀⢠⠞⠁⠀⣀⣀⡀⠀⠀⠘⢧⡀⣠⣤⡶⠖⠛⠛⠛⠒⠒⡞⠀⠀⠀⠀⠀⠀⢀⠀
+⠀⠉⠳⣄⠀⢀⡤⡺⠛⠉⠀⠀⠀⠀⠈⣻⢦⠀⠀⠀⠀⢻⡆⠀⠀⠀⠈⠻⠟⢁⡎⠀⠀⠀⠀⠀⠙⠦⣄⣀⣤⠟⠀⠀⠉⣀⣀⣀⡉⠂⠀⠀⣽⣏⠁⠀⠀⠀⠀⠀⠀⠀⢇⠀⠀⠀⠀⠀⢠⡞⠀
+⠀⠀⠀⢈⣷⠋⠀⠁⠀⠀⠀⠀⠀⢈⣩⣤⣼⣧⣤⡀⠀⠀⠻⡄⠀⠀⠀⠀⢀⡼⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠋⠀⠀⣈⣭⠵⠒⠋⠉⠂⠀⠀⠹⡌⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠋⠀⠀
+⠀⠀⠀⣾⠋⠀⠀⠀⠀⠀⢀⡤⠞⠉⠉⠀⠀⠀⠈⣻⡆⠀⣀⣙⡦⠤⣀⣤⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⠴⠋⣡⡏⠀⠀⠀⠀⠀⠀⠀⠀⠙⠲⣄⡀⠀⠀⠀⠀⠀⠀⣀⣠⠴⠋⠁⠀⠀⠀
+⠀⠀⢸⠇⠀⠀⠀⠀⢀⡶⠉⠀⠀⠀⠀⠀⠀⠀⠈⠁⡧⠋⠉⠁⠀⠀⠀⠘⠀⠀⠀⠀⠀⠀⠀⢀⣠⠴⠚⠉⠀⢀⣴⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠁⠈⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⠀⠀⠀⠉⠑⢏⠀⠀⠀⠀⠀⠀⣀⣤⠶⠶⠾⣧⡀⠀⠀⠀⠀⠀⣤⣤⣤⣤⡤⠒⠒⠉⠁⠀⠀⣀⣤⣶⠿⢿⡿⠀⠀⠀⠀⠀⠀⠀⠀⢀⡶⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠈⡆⠀⠀⠀⠀⠈⠇⠀⠀⢀⡤⠚⠉⠀⠀⠀⠐⠁⡇⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣶⣶⣶⣶⣾⠿⣿⡟⠁⠀⣼⠃⠀⠀⠀⠀⠀⣠⠞⣠⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠹⡄⠀⠀⠀⠀⠀⠀⠉⠻⡄⠀⠀⠀⠀⠀⠀⣰⠁⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⣿⣿⣿⠃⣠⠏⠀⠀⣰⠏⠀⠀⠀⠀⠠⠞⢁⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠙⣄⠀⠀⠀⠀⠀⠀⠀⠊⠀⠀⠀⠀⢀⡴⠋⠳⢄⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⠁⠊⠀⠀⢀⡰⠋⠀⠀⠀⠀⠀⣠⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠈⠑⠦⣀⡀⠀⠀⠀⠀⠀⣀⡠⠖⠋⠀⠀⠀⠀⠙⠢⢄⡀⠀⠀⠀⠀⠈⠛⢿⣇⣀⣀⣠⠴⠋⠀⠀⠀⢀⣀⠤⠚⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠒⠒⠚⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠒⠤⢤⣀⣀⣀⣀⣀⣀⣀⣀⡠⠤⠖⠚⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+</div>
+</div>
+
+
+
+
+
 <h3 id="ejercicio-final">5. Ejercicio Final</h3>
 
 **Parte 1: Definir Guion/Storyboard** 
@@ -1154,7 +1230,7 @@ Durante el camino, se cambiaron cosas del guion y la idea inicial. Los seres cam
 ```
 
 "Ser mirado" presenta a un ser divino que existe porque alguien lo mira y controla su existencia. En el centro de un espacio oscuro flota una pirámide azul invertida, apoyada sobre su punta, que aparece únicamente cuando el espectador quiere a través de un botón. Su luz ilumina el suelo y provoca las sombras de una multitud de ojos que avanzan en orden, sin cruzarse.
-​La obra invierte la idea clásica de vigilancia, donde uno vigila a muchos sin ser visto. Aquí ocurre lo contrario ya que el centro está a la vista de todos y los "vigilantes" serían la multitud. En esta obra, la divinidad y la vigilancia terminan siendo lo mismo. Al final, ser adorado es estar bajo una observación y juicio permanentes. Por eso, este ser es a la vez un dios y el objetivo de todas esas miradas, por ende, se convierte en un dios frágil. A su alrededor, los ojos marchan de forma similar a la militar. Todo cambia cuando el espectador presiona el botón blanco, en ese momento todas las miradas giran de hacia el frente y quien controla la obra pasa a ser el observado.
+​La obra invierte la idea clásica de vigilancia, donde uno vigila a muchos sin ser visto. Aquí ocurre lo contrario ya que el centro está a la vista de todos y los "vigilantes" serían la multitud. En esta obra, la divinidad y la vigilancia terminan siendo lo mismo. Al final, ser adorado es estar bajo una observación y juicio permanentes. Por eso, este ser es a la vez un dios y el objetivo de todas esas miradas, por ende, se convierte en un dios frágil. A su alrededor, los ojos marchan de forma similar a la militar. Todo cambia cuando el espectador presiona el botón blanco, en ese momento todas las miradas giran hacia el frente y quien controla la obra pasa a ser el observado.
 ​Este proyecto se hizo con ayuda de inteligencia artificial, que funcionó como otro "ojo" observando el proceso. Sin embargo, sus errores me obligaron a intervenir en el código manualmente, demostrando que la supuesta perfección de estos sistemas es frágil como la de cualquier dios que se retrate como perfecto. Reconocer estos fallos también es parte del mensaje de esta obra, ya que recuerda que cualquier mirada es tanto vigilante como vigilada.
 
 ```
@@ -1163,12 +1239,32 @@ Durante el camino, se cambiaron cosas del guion y la idea inicial. Los seres cam
 
 **Parte 3: Nueva idea, parte técnica** 
 
+
+
 <div style="text-align: center;">
-<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Tecnico.png" style="width: 600px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Tecnico.png" alt="Red de nodos del ejercicio final" style="width: 800px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
 </div>
 
+<div style="text-align: center;">
+<span class="pill">Audio</span> → <span class="pill">Pulso</span> → <span class="pill">Geometría</span> → <span class="pill">Render</span> → <span class="pill">Bloom</span> → <span class="pill">Salida</span>
+</div>
 
+<div class="bloque" markdown="1">
 
+**Descripción técnica**
+
+A continuación la explicación del uso de los nodos en el trabajo:
+
+| Parte | Nodos | Qué hace |
+|---|---|---|
+| Latido | `button3`, `audiofilein1`, `analyze1`, `lag3`, `math1`,`pulse`, `slider1`, `text1` | Sistema de audio y botón que lo activa |
+| Movimiento | `patternx`, `patterny`, `express1`, `limit1`, `merge1` | Genera los valores que mueven las figuras |
+| Figuras 3D | `geo1`, `geo2`, `geo3`, `phong1`, `phong2`, `constant1` | Las figuras 3D (ojos, pirámide, suelo) y sus materiales |
+| Escena | `cam1`, `light1`, `light2`, `render1` | Cámara, luces y render |
+| Interacción Ojos| `button2`, `circle2`, `constant2`, `lag1` | El sistema y el botón que hace que los ojos se giren suavemente |
+| Pirámide y brillo | `bloom1`, `slider2`, `circle1`, `button1` | Aparición pirámide y control del brillo|
+
+</div>
 
 
 
