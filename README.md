@@ -1080,7 +1080,7 @@ ComfyUI es una interfaz de código abierto basada en nodos para crear flujos de 
 
 <div style="text-align: center;">
 <a href="https://comfy.org/" target="_blank"><img src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Logo2.png" alt="Logo de TouchDesigner" style="width: 200px; max-width: 100%; background: transparent !important;"></a>
-
+</div>
 <h3 id="ejercicio-final">5. Ejercicio Final</h3>
 
 **Parte 1: Definir Guion/Storyboard** 
@@ -1131,6 +1131,46 @@ Sonido de corazón
 </div>
 
 </details>
+
+**Parte 2: Nueva idea, parte conceptual** 
+
+<div class="bloque" markdown="1">
+Durante el camino, se cambiaron cosas del guion y la idea inicial. Los seres caminantes pasaron a ser modelos de ojos 3D, el ser azul del centro pasó a ser una pirámide flotante y todo el ambiente se transformó a algo diferente. En cuanto al sonido, siempre mantuve el plan de integrar el latido de un corazón.
+</div>
+
+<div class="bloque" markdown="1">
+
+<div style="text-align: center;">
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Final.gif" style="width: 600px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+</div>
+
+**"Ser mirado"** es una instalación interactiva desarrollada en el programa TouchDesigner. Dentro del espacio tridimensional y oscuro, muchos modelos 3D de ojos avanzan en fila de un lado a otro, de forma ordenada. Al accionar un botón triangular azul en la interfaz aparece en el centro una pirámide del mismo color que está invertida y que emite luz propia. Otro botón de color Fucsia activa un latido por minuto, con el cual la pirámide y su brillo palpitan. De igual  forma un Slider regula su volumen y al mismo tiempo el brillo que emite la pirámide. Un tercer botón blanco gira la mirada de los ojos hacia el frente, y un segundo Slider modula la intensidad de una luz roja que rodea todo el escenario.
+
+</div>
+
+<details markdown="1">
+<summary>PROPUESTA CONCEPTUAL</summary>
+
+```
+
+"Ser mirado" presenta a un ser divino que existe porque alguien lo mira y controla su existencia. En el centro de un espacio oscuro flota una pirámide azul invertida, apoyada sobre su punta, que aparece únicamente cuando el espectador quiere a través de un botón. Su luz ilumina el suelo y provoca las sombras de una multitud de ojos que avanzan en orden, sin cruzarse.
+​La obra invierte la idea clásica de vigilancia, donde uno vigila a muchos sin ser visto. Aquí ocurre lo contrario ya que el centro está a la vista de todos y los "vigilantes" serían la multitud. En esta obra, la divinidad y la vigilancia terminan siendo lo mismo. Al final, ser adorado es estar bajo una observación y juicio permanentes. Por eso, este ser es a la vez un dios y el objetivo de todas esas miradas, por ende, se convierte en un dios frágil. A su alrededor, los ojos marchan de forma similar a la militar. Todo cambia cuando el espectador presiona el botón blanco, en ese momento todas las miradas giran de hacia el frente y quien controla la obra pasa a ser el observado.
+​Este proyecto se hizo con ayuda de inteligencia artificial, que funcionó como otro "ojo" observando el proceso. Sin embargo, sus errores me obligaron a intervenir en el código manualmente, demostrando que la supuesta perfección de estos sistemas es frágil como la de cualquier dios que se retrate como perfecto. Reconocer estos fallos también es parte del mensaje de esta obra, ya que recuerda que cualquier mirada es tanto vigilante como vigilada.
+
+```
+
+</details>
+
+**Parte 3: Nueva idea, parte técnica** 
+
+<div style="text-align: center;">
+<img class="zoom" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/Tecnico.png" style="width: 600px; max-width: 100%; border-radius: 12px; margin: 10px 0;">
+</div>
+
+
+
+
+
 
 <img id="mi-cursor" src="https://raw.githubusercontent.com/kminugami/Multimedial/refs/heads/main/img/cursor.gif" style="position: fixed; top: 0; left: 0; width: 32px; pointer-events: none; z-index: 9999; display: none;">
 
